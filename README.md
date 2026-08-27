@@ -2,7 +2,7 @@
 
 > **How did trajectory design, gravitational dynamics, mission duration and propulsion requirements allow three generations of spacecraft to travel to the Moon and return safely while minimizing propellant expenditure?**
 
-This project compares **Apollo 11**, **Apollo 13**, and **Artemis II** using real NASA data — mission reports, flight plans, and flight-derived ephemeris — to analyze free-return trajectory mechanics, propellant consumption, and gravitational dynamics.
+This repository compares **Apollo 11**, **Apollo 13**, and **Artemis II** using NASA's actual data — mission reports, flight plans, and flight-derived ephemeris — to analyze free-return trajectory mechanics, propellant consumption, and gravitational dynamics.
 
 ---
 
