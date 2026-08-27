@@ -1,0 +1,28 @@
+mission,event,met_hr_min_sec,value,unit,description,source_doc,source_section,confidence
+Apollo 11,Earth parking orbit,,100.7 x 99.2,statute miles,Actual earth parking orbit achieved,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 3.0 Mission Description,CONFIRMED-PRIMARY
+Apollo 11,Translunar Injection (TLI) accuracy,02:44:16,1.6,ft/sec,Velocity within 1.6 ft/sec of planned TLI cutoff velocity,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.3 / 3.0,CONFIRMED-PRIMARY
+Apollo 11,TLI overspeed intentional,,6.5,ft/sec,S-IVB targeted 6.5 ft/sec in excess of free-return velocity requirement,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.5,CONFIRMED-PRIMARY
+Apollo 11,SPS correction cancelling TLI overspeed,~00:23 after ejection,20,ft/sec,Service propulsion correction to cancel planned overspeed,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.5,CONFIRMED-PRIMARY
+Apollo 11,First (only) midcourse correction,26.5,ft/sec,at ~26.5 hr MET,Only 1 of 4 planned midcourse correction options exercised; performed with SPS,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 3.0,CONFIRMED-PRIMARY
+Apollo 11,Lunar Orbit Insertion (LOI-1),~75:50,,,6-minute SPS burn; resulting orbit 169.9 x 60.9 mi (onboard) vs 169.7x60 planned,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.6,CONFIRMED-PRIMARY
+Apollo 11,LOI-1 residuals,,0.1,ft/sec,Residual velocity error in all axes after LOI burn,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.6,CONFIRMED-PRIMARY
+Apollo 11,Lunar orbit circularization (LOI-2),~79:50,,,SPS burn (bank-A valves only); resulting orbit 66.1 x 54.4 mi (onboard) vs 66x54 planned,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.6,CONFIRMED-PRIMARY
+Apollo 11,Descent Orbit Insertion (DOI),101:36,,,DPS burn; resulting orbit 9.1 x 57.2 mi vs 8.5x57.2 predicted,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.10.1,CONFIRMED-PRIMARY
+Apollo 11,DOI residuals,,1,ft/sec,Guided cutoff residuals in each axis (<1 ft/sec),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.10.1,CONFIRMED-PRIMARY
+Apollo 11,Powered Descent Initiation to landing,102:33 - 102:45:39.9,~12,minutes,Powered descent duration (PDI to touchdown),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 3.0 / 5.3,CONFIRMED-PRIMARY
+Apollo 11,RCS propellant used during powered descent,,95,lb,Actual reaction control propellant consumption during descent (vs 40 lb predicted),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.3,CONFIRMED-PRIMARY
+Apollo 11,RCS propellant predicted (powered descent),,40,lb,Predicted reaction control propellant for descent,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.3,CONFIRMED-PRIMARY
+Apollo 11,RCS propellant - manual descent mode share,,51,lb,Portion of descent RCS propellant used while in manual mode (~1.5x automatic-mode rate),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.3,CONFIRMED-PRIMARY
+Apollo 11,Landing velocity,102:45:39.9,2.1 lateral / 1.7 vertical,ft/sec,Touchdown velocity components,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.4,CONFIRMED-PRIMARY
+Apollo 11,Lunar ascent orbit insertion,124:22,,,Powered ascent; PGNS orbit 47.3x9.5 mi vs AGS 46.6x9.5 mi,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.6 / 5.15,CONFIRMED-PRIMARY
+Apollo 11,Ascent guided cutoff residuals,,2,ft/sec,Residuals at ascent insertion (<2 ft/sec),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.14,CONFIRMED-PRIMARY
+Apollo 11,Coelliptic Sequence Initiation (CSI),125:19:34.7,51.5,ft/sec,LM RCS maneuver (Z-axis thrusters),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.7,CONFIRMED-PRIMARY
+Apollo 11,Constant Differential Height (CDH) maneuver,126:17:49.6,19.9,ft/sec,Total velocity change (nominal case would be ~0; ellipticity + execution errors drove this up),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.7,CONFIRMED-PRIMARY
+Apollo 11,Terminal Phase Initiation (TPI),127:03:39,,,Ignition ~6 min 39 sec later than planned,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 5.7,CONFIRMED-PRIMARY
+Apollo 11,Transearth Injection (TEI),~135:30,150,seconds,Final SPS firing of the flight; 150-second duration; during 31st lunar revolution,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 3.0 / 4.17,CONFIRMED-PRIMARY
+Apollo 11,Second (transearth) midcourse correction,150:29:57.4 (ignition),4.8,ft/sec,Only one midcourse correction needed during transearth coast (RCS firing),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.18,CONFIRMED-PRIMARY
+Apollo 11,Entry interface,194:49:12.7,400000,feet,Command module/service module separation ~15 min before entry interface,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.19 / Table 3-II,CONFIRMED-PRIMARY
+Apollo 11,Landing point relocation,,215,statute miles,Landing point moved downrange due to weather (from 1285 mi to 1500 mi entry-interface range),Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.19,CONFIRMED-PRIMARY
+Apollo 11,Entry g-loads,,6.5 first pulse / 6.0 second pulse,g,Peak entry acceleration pulses,Apollo 11 Mission Report (NASA-TM-X-62633),Sec 4.19,CONFIRMED-PRIMARY
+Apollo 11,Splashdown,195:18:35,,,Landing in Pacific Ocean; total mission duration 8 days 3 hr 18 min 35 sec,Apollo 11 Mission Report (NASA-TM-X-62633),Table 3-II,CONFIRMED-PRIMARY
+Apollo 11,SPS propellant loaded/consumed/remaining,,PENDING,lb,"Table not yet located in extracted text (section 8.8 Service Propulsion); previously reported as 40,803/35,739/5,064 lb total; needs re-verification against this primary source directly",Apollo 11 Mission Report (NASA-TM-X-62633),Sec 8.8 (not yet extracted),TO_BE_RE-VERIFIED

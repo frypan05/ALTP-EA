@@ -1,0 +1,17 @@
+Metric,Apollo 11,Apollo 13,Artemis II,Confidence Notes
+Mission Duration,8 days 3 hr 18 min 35 sec,5 days 22 hr 54 min 41 sec,~8 days,CONFIRMED all three
+Translunar Coast,~75 hr,~61 hr (to free-return restoration),~5 days,CONFIRMED Apollo; CALCULATED Artemis
+Closest Lunar Approach (distance),Lunar orbit: 169.9 × 60.9 mi,Pericynthion altitude: ~156 mi (251 km) post-restoration,"Pericynthion: 58,880 km from Earth center",CONFIRMED Apollo; MEASURED Artemis
+Closest Lunar Approach (time MET),~75:50 MET,~79:27 MET (PC+2 burn 2 hr after),Apr 6 ~23:00 UTC (~121 hr MET),CONFIRMED all three
+Transearth Coast,~59 hr,~63 hr (PC+2 to splashdown),~3.2 days,CALCULATED all
+TLI Burn Duration,S-IVB (not spacecraft),S-IVB (not spacecraft),5 min 50 sec (350 sec),CONFIRMED (S-IVB)
+TLI Δv,N/A (S-IVB burn),N/A (S-IVB burn),"~1,274 ft/s (388 m/s) [secondary source]",CONFIRMED Apollo; TO_BE_CROSS_CHECKED Artemis
+TEI Δv,150-sec SPS burn,860.5 ft/s (262.5 m/s) — PC+2,"N/A (free-return, no burn needed)",CONFIRMED Apollo 13; N/A Artemis
+Major Corrections (count),"2 (1 translunar, 1 transearth)","5 (MCC-1, restore, PC+2, MCC-1T, final)",Not publicly documented,CONFIRMED
+Total Δv (corrections),20.9 + 4.8 = 25.7 ft/s (7.8 m/s),23.2 + 37.8 + 860.5 + 7.8 = 929.3 ft/s (283.3 m/s),Not publicly documented,CONFIRMED Apollo; UNAVAILABLE Artemis
+Spacecraft Main Engine — Total Propellant,"35,739 lb (16,211 kg) consumed",331.6 lb (150.4 kg) SPS only,"~1,000 lb (454 kg) for TLI only",TO_BE_RE-VERIFIED Apollo 11; CONFIRMED others
+Spacecraft Main Engine — System,SPS (Service Propulsion System),SPS (1 burn only) + LM DPS (3 burns),Orion ESM Main Engine,CONFIRMED
+RCS Propellant,95 lb descent RCS (vs 40 lb planned),SM: 286 lb | LM: 467 lb,Not publicly documented,CONFIRMED Apollo; UNAVAILABLE Artemis
+Return Trajectory Type,Free-return,Restored free-return (after abort),Free-return (nominal),CONFIRMED
+Flight-Derived Trajectory Data,Tracking/mission report,Tracking/mission report,"Flight-derived ephemeris (3,239 vectors)",CONFIRMED
+Primary Source,NASA-TM-X-62633,MSC-02680,NASA JSC/FOD/FDO OEM ephemeris,CONFIRMED
