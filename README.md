@@ -6,7 +6,7 @@ This repository compares **Apollo 11**, **Apollo 13**, and **Artemis II** using 
 
 ---
 
-## Key Findings
+## Useful Overview:
 
 | Mission | Total Propellant | Trajectory Type | Key Insight |
 |---------|-----------------|-----------------|-------------|
