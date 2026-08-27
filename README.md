@@ -2,7 +2,7 @@
 
 > **How did trajectory design, gravitational dynamics, mission duration and propulsion requirements allow three generations of spacecraft to travel to the Moon and return safely while minimizing propellant expenditure?**
 
-This repository compares **Apollo 11**, **Apollo 13**, and **Artemis II** using NASA's actual data — mission reports, flight plans, and flight-derived ephemeris — to analyze free-return trajectory mechanics, propellant consumption, and gravitational dynamics.
+This repository compares **Apollo 11**, **Apollo 13**, and **Artemis II** using NASA's actual data - mission reports, flight plans, and flight-derived ephemeris - to analyze free-return trajectory mechanics, propellant consumption, and gravitational dynamics.
 
 ---
 
@@ -11,10 +11,10 @@ This repository compares **Apollo 11**, **Apollo 13**, and **Artemis II** using 
 | Mission | Total Propellant | Trajectory Type | Key Insight |
 |---------|-----------------|-----------------|-------------|
 | **Apollo 11** | ~16,211 kg (SPS whole mission) | Nominal free-return + lunar orbit | 42% of SPS fuel went to LOI-1 alone |
-| **Apollo 13** | ~14,572 kg (all systems) | Contingency rescue | PC+2 burn consumed 37% of total — but saved 9 hours |
+| **Apollo 13** | ~14,572 kg (all systems) | Contingency rescue | PC+2 burn consumed 37% of total; but saved 9 hours |
 | **Artemis II** | ~454 kg (TLI burn only) | Nominal free-return | No return burn needed — Moon's gravity provides "free" return |
 
-**The free-return trajectory is the fundamental efficiency mechanism.** After the TLI burn, the spacecraft's path is shaped by Earth and Moon gravity alone. The Moon's gravitational encounter redirects the spacecraft back toward Earth — no engine burn required. This eliminates an entire major propulsion event.
+**The free-return trajectory is the fundamental efficiency mechanism.** After the TLI burn, the spacecraft's path is shaped by Earth and Moon gravity alone. The Moon's gravitational encounter redirects the spacecraft back toward Earth; no engine burn required. This eliminates an entire major propulsion event.
 
 ---
 
@@ -32,7 +32,7 @@ The complete Earth–Moon–Earth trajectories for all three missions, computed 
 
 ### Velocity Profile
 
-Speed changes throughout each mission — the characteristic U-shape of a free-return trajectory.
+Speed changes throughout each mission; the characteristic U-shape of a free-return trajectory.
 
 ![Velocity Profiles](outputs/velocity_profiles.png)
 
@@ -48,7 +48,7 @@ Fuel consumption breakdown by propulsion system and maneuver.
 
 **Top left:** Total propellant by mission (stacked by system). Apollo 13's contingency used ~2× more propellant than Apollo 11 despite a shorter mission.
 
-**Top right:** Apollo 13 propellant waterfall showing cumulative fuel expenditure. The PC+2 burn alone consumed 5,455 kg — the single largest propellant cost of any Apollo mission.
+**Top right:** Apollo 13 propellant waterfall showing cumulative fuel expenditure. The PC+2 burn alone consumed 5,455 kg; the single largest propellant cost of any Apollo mission.
 
 **Bottom left:** Apollo 11 SPS budget by maneuver (proportional estimate). LOI-1 and TEI dominate.
 
@@ -88,7 +88,7 @@ ALTP-EA/
 
 ## Data Sources
 
-All data comes from official NASA documents. No values are invented or estimated.
+All data comes from official NASA's documentation for each launch. No values are invented or estimated.
 
 | Mission | Source Document | Type | What We Extract |
 |---------|----------------|------|-----------------|
@@ -98,7 +98,7 @@ All data comes from official NASA documents. No values are invented or estimated
 
 ### Data Integrity Principles
 
-- **Only measured or officially documented NASA values** are used
+- **Only measured or officially documented NASA's values** are used
 - Anything reconstructed or calculated by us is explicitly flagged `CALCULATED`
 - Cells with unverified data are left blank or marked `UNAVAILABLE` — never estimated
 - Source provenance is tracked for every data point
